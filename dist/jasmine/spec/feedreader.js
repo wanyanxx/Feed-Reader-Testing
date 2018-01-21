@@ -109,7 +109,7 @@ $(function() {
                 done();
             });
         });
-        it('the content will really change when a new source is loadedwith the loadFeed function',function(done){
+        it('the content will really change ',function(done){
             loadFeed(2, function () {
                 //console.log($(".feed").html());
                 expect($(".feed").html()).not.toEqual(entries);
