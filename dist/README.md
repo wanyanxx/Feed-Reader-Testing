@@ -8,7 +8,7 @@
 
 不管你是在一个推崇测试驱动开发的组织，或者是一个编写测试只是为了防止未来的开发中出现与已有代码冲突的 bug 的团队工作，测试都是我们要掌握的一项重要技能。
 
-## 测试功能与步骤
+## 功能与步骤
 
 我通过学习怎么使用[Jasmine](http://jasmine.github.io)来给已经写好的应用编写一定数量的测用例。这些测试用例既要测试深层次的商业逻辑，也要测试时间处理和 DOM 操作。
 1.实验一下第一个测试，保证 allFeeds 变量被定义了而且不是空的，把 app.js 里面的 allFeeds 变量变成一个空的数组然后刷新页面。
@@ -18,7 +18,7 @@
 5.写一个叫做 "Initial Entries" 的测试用例，写一个测试保证 loadFeed 函数被调用而且工作正常，即在 .feed 容器元素里面至少有一个 .entry 的元素。
 6.写一个叫做 "New Feed Selection" 的测试用例，写一个测试保证当用 loadFeed 函数加载一个新源的时候内容会真的改变。
 
-## 项目资源
+## 测试应用
 
 1.可下载[我的项目资源]https://github.com/wanyanxx/Feed-Reader-Testing/tree/master/dist))。
 2.使用浏览器打开index.html文件，运行我的项目。
