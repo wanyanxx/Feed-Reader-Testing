@@ -22,5 +22,7 @@
 
 1.可下载[我的项目资源]https://github.com/wanyanxx/Feed-Reader-Testing/tree/master/dist))。
 2.使用浏览器打开index.html文件，运行我的项目。
-3.点击测试连接，如若网页显示为绿色，且“ 0 failures”，则测试通过。
-4.如若网页显示为红色，“1 failue”或者“many failures”，则测试为通过，根据提示进行修改，直至测试通过。
+3.网页显示为绿色，且“ 0 failures”，则测试通过。
+4.图片如下：
+![测试结果](https://github.com/wanyanxx/Feed-Reader-Testing/blob/master/dist/result.png)
+
